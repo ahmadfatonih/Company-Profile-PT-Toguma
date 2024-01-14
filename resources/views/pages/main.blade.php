@@ -30,7 +30,7 @@
 
             <div class="row">
                 <div class="col-lg-6" >
-                    <img src="/img/plastic-material.jpg" class="img-fluid rounded-4 shadow-lg" alt="" data-aos="fade-right">
+                    <img src="{{ url('storage/app/public/'. $about->image) }}" class="img-fluid rounded-4 shadow-lg" alt="" data-aos="fade-right">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                     <h3 data-aos="fade-left">PT Toguma Plastic Cikarang</h3>
